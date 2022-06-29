@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CrazyBooks_Models.Models
 {
-    class Booking
+    public class Booking
     {
     }
 }
