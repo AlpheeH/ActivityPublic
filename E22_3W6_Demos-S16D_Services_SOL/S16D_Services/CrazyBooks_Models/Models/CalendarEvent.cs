@@ -10,5 +10,7 @@ namespace CrazyBooks_Models.Models
     {
         public int Id { get; set; }
         public DateTime DateTime { get; set; }
+
+        public List<Booking> Bookings { get; set; }
     }
 }
