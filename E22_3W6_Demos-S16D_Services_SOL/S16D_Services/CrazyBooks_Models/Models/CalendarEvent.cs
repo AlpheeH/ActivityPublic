@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace CrazyBooks_Models.Models
 {
-    class CalendarEvent
+    public class CalendarEvent
     {
+        public int Id { get; set; }
+        public DateTime DateTime { get; set; }
     }
 }
